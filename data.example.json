@@ -1,0 +1,25 @@
+{
+    "creds": {
+        "type": "service_account",
+        "project_id": "",
+        "private_key_id": "",
+        "private_key": "",
+        "client_email": "",
+        "client_id": "",
+        "auth_uri": "",
+        "token_uri": "",
+        "auth_provider_x509_cert_url": "",
+        "client_x509_cert_url": ""
+    },
+    "channels": [
+        "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+        "UCi2G5aQTN0YwGIfnt1u7Nbg",
+        "UCXulruMI7BHj3kGyosNa0jA",
+        "UC4X7J9D6VbTIwnFDFNkfQ1A",
+        "UCOxqgCwgOqC2lMqC5PYz_Dg"
+    ],
+    "googleSheets": {
+        "spreadSheetName": "Youtube Subs Tracker",
+        "sheetName": "Sheet1"
+    }
+}

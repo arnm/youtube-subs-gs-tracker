@@ -1,0 +1,19 @@
+service: youtube-subs
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: python3.8
+  lambdaHashingVersion: 20201221
+
+functions:
+  youtube-subs:
+    handler: youtube.subs
+    events:
+      - schedule: 
+          enabled: true
+          rate: rate(1 minute)
+          input: ${file(data.json)}
+
+plugins:
+  - serverless-python-requirements
