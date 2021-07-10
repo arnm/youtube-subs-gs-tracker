@@ -6,8 +6,6 @@ from oauth2client.service_account import ServiceAccountCredentials
 from googleapiclient.discovery import build
 
 def subs(event, context):
-
-    print(event)
     
     SCOPES = [
         'https://www.googleapis.com/auth/youtube.readonly', 
